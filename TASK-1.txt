@@ -1,0 +1,70 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP/1.1:
+=========
+1.Uses separate connections for each resource, leading to potential bottlenecks.
+2.Headers are not compressed, causing overhead.
+3.No built-in support for server push.
+4.No prioritization of resources, potentially slowing down page load times.
+5.Errors can interrupt the entire page loading process.
+
+HTTP/2:
+=======
+1.Uses a single connection for multiple resources, reducing latency.
+2.Compresses headers, reducing overhead.
+3.Supports server push, improving performance.
+4.Prioritizes resources, speeding up page load times.
+5.Errors are isolated, minimizing impact on other resources.
+
+
+
+write a blog about objects and its internal representation in javascript
+
+
+Definition of an Object:
+========================
+An object is a collection of key-value pairs.
+Keys are also called property names, and values can be any data type (including other objects).
+
+
+Creating an Object:
+===================
+Use curly braces {} to create an object.
+Add key-value pairs inside the braces.
+
+let person = {
+    name: "John",
+    age: 30,
+    isStudent: false
+};
+
+Accessing Object Properties:
+============================
+Use dot notation:
+
+console.log(person.name); // Output: John
+
+Use bracket notation:
+
+console.log(person["age"]); // Output: 30
+
+
+Adding and Modifying Properties:
+================================
+Add a new property:
+
+person.job = "Engineer";
+
+Modify an existing property:
+
+person.age = 31;
+
+Internal Representation of Objects:
+===================================
+
+JavaScript engines use hash tables or dictionaries to store objects.
+This allows efficient lookup, insertion, and deletion of properties.
+
+
+
+	
