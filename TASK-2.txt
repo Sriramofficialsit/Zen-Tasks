@@ -1,0 +1,15 @@
+Document Object:
+
+1.Represents the HTML document itself.
+2.Provides methods and properties to access and manipulate the content, structure, and styling of the document.
+3.Used to interact with elements within the HTML, modify their attributes or content, create new elements, and handle events.
+4.Examples of operations include selecting elements by IDs, classes, or tag names.
+5.Encapsulates the structure and content of the web page for dynamic modification via JavaScript.
+
+Window Object:
+
+1.Represents the web browser window that contains the document.
+2.Provides access to browser features such as navigation, history manipulation, setting timeouts, and handling window-related events.
+3.Serves as the global scope for JavaScript code running within the browser environment.
+4.Allows manipulation of browser behavior like opening new windows or tabs, controlling window size and position, and navigating to different URLs.
+5.Includes properties like location for current page URL and navigator for browser information, encompassing the entire browser window and its functionalities.
